@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8C779C492AEB93DC00E78B1B /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C779C482AEB93DC00E78B1B /* SourceLinkView.swift */; };
 		8C779C4B2AEB961700E78B1B /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C779C4A2AEB961700E78B1B /* FruitNutrientsView.swift */; };
+		8C91790F2AF24C46003ACA3E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C91790E2AF24C46003ACA3E /* SettingsView.swift */; };
+		8C9179112AF253E8003ACA3E /* SettingsLebelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9179102AF253E8003ACA3E /* SettingsLebelView.swift */; };
+		8C9179132AF257ED003ACA3E /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9179122AF257ED003ACA3E /* SettingsRowView.swift */; };
 		8C92E8032AE9A65300529221 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92E8022AE9A65300529221 /* OnboardingView.swift */; };
 		8C92E8062AE9A83D00529221 /* FruitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92E8052AE9A83D00529221 /* FruitsModel.swift */; };
 		8C92E8092AE9A93A00529221 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C92E8082AE9A93A00529221 /* FruitData.swift */; };
@@ -26,6 +29,9 @@
 /* Begin PBXFileReference section */
 		8C779C482AEB93DC00E78B1B /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		8C779C4A2AEB961700E78B1B /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		8C91790E2AF24C46003ACA3E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8C9179102AF253E8003ACA3E /* SettingsLebelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLebelView.swift; sourceTree = "<group>"; };
+		8C9179122AF257ED003ACA3E /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		8C92E8022AE9A65300529221 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		8C92E8052AE9A83D00529221 /* FruitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsModel.swift; sourceTree = "<group>"; };
 		8C92E8082AE9A93A00529221 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				8CB7DAFD2AD68EF100DEB193 /* FructusApp.swift */,
 				8CB7DAFF2AD68EF100DEB193 /* ContentView.swift */,
 				8C92E8022AE9A65300529221 /* OnboardingView.swift */,
+				8C91790E2AF24C46003ACA3E /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -125,6 +132,8 @@
 				8C92E80E2AEAFE9200529221 /* FruitHeaderView.swift */,
 				8C779C482AEB93DC00E78B1B /* SourceLinkView.swift */,
 				8C779C4A2AEB961700E78B1B /* FruitNutrientsView.swift */,
+				8C9179102AF253E8003ACA3E /* SettingsLebelView.swift */,
+				8C9179122AF257ED003ACA3E /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +210,7 @@
 			files = (
 				8C92E8092AE9A93A00529221 /* FruitData.swift in Sources */,
 				8C779C492AEB93DC00E78B1B /* SourceLinkView.swift in Sources */,
+				8C9179132AF257ED003ACA3E /* SettingsRowView.swift in Sources */,
 				8CB7DB102AD6AE8F00DEB193 /* StartButonView.swift in Sources */,
 				8C92E80B2AEA2E7400529221 /* FruitRowView.swift in Sources */,
 				8C779C4B2AEB961700E78B1B /* FruitNutrientsView.swift in Sources */,
@@ -211,6 +221,8 @@
 				8CB7DB002AD68EF100DEB193 /* ContentView.swift in Sources */,
 				8C92E8032AE9A65300529221 /* OnboardingView.swift in Sources */,
 				8CB7DAFE2AD68EF100DEB193 /* FructusApp.swift in Sources */,
+				8C9179112AF253E8003ACA3E /* SettingsLebelView.swift in Sources */,
+				8C91790F2AF24C46003ACA3E /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
