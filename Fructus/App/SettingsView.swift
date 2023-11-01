@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     // MARK: - PROPERTIES
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     // MARK: - BODY
     var body: some View {
@@ -38,6 +39,36 @@ struct SettingsView: View {
                     }
                     
                     //MARK: - Section 2
+                    GroupBox(
+                        label: (SettingsLebelView(labelText: "Customisation", labelImage: "paintbrush"))) {
+                            Divider().padding(.vertical, 4)
+                            VStack {
+                                Text("If you wish, you can restart the application by toggle the switch in this box. That way it starts the onboarding process again and you will see the welcome screen again.")
+                                    .padding(.vertical, 8)
+                                    .frame(minHeight: 60)
+                                    .layoutPriority(1)
+                                    .font(.footnote)
+                                    .multilineTextAlignment(.leading)
+                                
+                                Toggle(isOn: $isOnboarding, label: {
+                                    if isOnboarding {
+                                        Text("Restarted".uppercased())
+                                            .fontWeight(.bold)
+                                            .foregroundStyle(Color.green)
+                                    } else {
+                                        Text("Restart".uppercased())
+                                            .fontWeight(.bold)
+                                            .foregroundStyle(Color.secondary)
+                                        /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                                    }
+                                })
+                                .padding()
+                                .background(
+                                    Color(UIColor.tertiarySystemBackground)
+                                        .clipShape(.rect(cornerRadius: 8, style: .continuous))
+                                )
+                            }
+                    }
 
                     //MARK: - Section 3
                     GroupBox(

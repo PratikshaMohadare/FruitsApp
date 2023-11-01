@@ -14,7 +14,7 @@ struct FruitDetailView: View {
     var fruit : Fruit
     
     var body: some View {
-        NavigationView(content: {
+        NavigationStack(root: {
             ScrollView(.vertical) {
                 VStack(alignment: .center, spacing: 20) {
                     // HEADER
@@ -59,6 +59,7 @@ struct FruitDetailView: View {
             }//: ScrollView
             .ignoresSafeArea()
         }) // : NAVIGATION
+        .toolbar(.visible, for: .navigationBar)
     }
 }
 
