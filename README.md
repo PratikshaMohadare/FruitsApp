@@ -1,5 +1,4 @@
 # FruitsApp-SwiftUI
-
 This project is a colorful encyclopedia of fruits, built entirely using the SwiftUI framework. This app supports Dark-Light mode and has support for iPad as well.
 
 Objectives of this app :
